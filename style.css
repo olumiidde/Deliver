@@ -1,0 +1,950 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.container{
+    width: 100%;
+}
+
+.herocontainer {
+    background-image: url(images/backkground.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+  }
+
+  .headcontainer{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    list-style: none;
+  }
+
+  nav li{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: white;
+  }
+
+  .hero{
+    display: flex;
+    align-items: center;
+    /* margin: 3rem 0; */
+  }
+
+  .heroimg{
+    width: 62%;
+    margin-left: -1rem;
+  }
+
+  .heroimg img{
+    width: 100%;
+  }
+
+  .herotext{
+    width: 38%;
+    margin: 8rem 0;
+  }
+
+  .herotext h4{
+font-family: Dm Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+/* width: 43%; */
+  }
+
+  .herotext p{
+font-family: Nunito;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #6B7280;
+margin: 2rem 0;
+  }
+
+  .herobtn button{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #FFF8F1;
+padding: 14px 24px 14px 24px;
+background: linear-gradient(90deg, #FF4C4C 0%, #FF8A4C 100%);
+border-radius: 12px;
+border: none;
+  }
+
+
+  .servicecontainer{
+    width: 100%;
+    background-color: #F9F9F9 ;
+    
+  }
+  .service{
+    width: 80%;
+    margin: auto;
+  }
+
+  .topservice{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .topservice h3{
+font-family: Archivo;
+font-size: 32px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+color: #161E2E;
+  }
+
+  .topservice p{
+font-family: Dm Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #161E2E;
+width: 25%;
+margin-top: 1rem;
+  }
+
+  .phoneservices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+  }
+
+  .delivery{
+    display: flex;
+  }
+
+  .first{
+    display: flex;
+    margin-bottom: 8rem;
+    gap: 3rem;
+  }
+  .second{
+    display: flex;
+    gap: 3rem;
+  }
+
+  .phone{
+    width: 100%;
+  }
+
+  .phone img{
+    width: 70%;
+  }
+
+  .deliveryimage{
+    width: 100%;
+  }
+  .deliveryimage img{
+    width: 70%;
+  }
+
+  .deliverytext h5{
+font-family: Dm Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #161E2E;
+overflow: hidden;
+  }
+
+  .deliverytext p{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #161E2E;
+  }
+
+  .processcontainer{
+    background: linear-gradient(219.36deg, #C11717 0%, #FF8A4C 100%);
+  }
+
+  .processs{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    overflow: hidden;
+  }
+
+  .process{
+    text-align: center;
+  }
+  .process h3{
+margin-top: 6rem;
+font-family: Archivo;
+font-size: 36px;
+font-weight: 700;
+line-height: 39.17px;
+color: white;
+  }
+
+  .process p{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+color: white;
+margin-top: 1rem;
+margin-bottom: 3rem;
+width: 55%;
+margin-left: 12rem;
+  }
+
+  .processimg{
+    display: flex;
+    position: relative;
+  }
+
+  .processdel{
+    margin-left: 18rem;
+    margin-top: 18rem;
+  }
+
+  .pack{
+    margin-top: -1rem;
+    /* justify-content: space-between; */
+    gap: 3rem;
+  }
+
+  .pack h5{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+width: 75%;
+margin-left: 1rem ;
+  }
+
+  .pack p{
+font-family: Dm Sans;
+font-size: 11px;
+font-weight: 400;
+line-height: 19px;
+text-align: center;
+color: white;
+width: 60%;
+margin-left: 2rem ;
+  }
+
+  
+  .line{
+    margin-top: -14rem;
+    margin-left: 1.5rem;
+    width: 80%;
+  }
+
+  .pricecontainer{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 6rem;
+  }
+
+  .price{
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .price h2{
+font-family: Archivo;
+font-size: 36px;
+font-weight: 700;
+line-height: 39.17px;
+color: #161E2E;
+margin-top: 6rem;
+margin-bottom: 1rem;
+  }
+
+  .price p{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color: #161E2E;
+width: 500px;
+height: 109px;
+margin-left: 14rem;
+  }
+
+  .priceduration{
+    margin-left: 22rem;
+  }
+
+  .pricerange{
+    width: 100%;
+  }
+
+  .pricerange img{
+    width: 95%;
+    margin-left: 2rem;
+  }
+
+  .deliveryy{
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+  }
+
+.deliverymethods{
+    display: flex;
+    /* gap: 4rem; */
+    justify-content: space-between;
+    
+}
+
+  .fsdf img{
+    width: 100%;
+  }
+  .fsdm img{
+    width: 100%;
+  }
+  .fsdl img{
+    width: 100%;
+  }
+
+  .faqcontainer{
+    width: 70%;
+    margin: auto;
+  }
+  
+  .faq h2{
+font-family: Archivo;
+font-size: 36px;
+font-weight: 700;
+line-height: 39.17px;
+text-align: center;
+margin: 3rem;
+
+  }
+
+  /* .payment{
+    margin: 2rem;
+  } */
+
+  .payplans{
+    border-style: outset;
+    padding: 1.7rem;
+    margin: 1rem;
+  }
+
+  .payplan h5{
+font-family: Archivo;
+font-size: 16px;
+font-weight: 700;
+line-height: 39.17px;
+text-align: left;
+color: #FF5A1F;
+  }
+
+  .pay p{
+font-family: Archivo;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #4B5563;
+width: 688px;
+
+  }
+  .cancellation{
+    border-style: outset;
+    padding: 1.8rem;
+    margin: 1rem;
+  }
+
+
+  .paycancel h5{
+font-family: Archivo;
+font-size: 18px;
+font-weight: 400;
+line-height: 19.58px;
+text-align: left;
+color: #4B5563;
+  }
+
+  .paymentplan{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cancellation{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .questions h4{
+font-family: Archivo;
+font-size: 24px;
+font-weight: 400;
+line-height: 26.11px;
+text-align: center;
+color: #161E2E;
+margin: 1.5rem;
+  }
+
+  .questions p{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color: #374151;
+width: 500px;
+margin-left: 12rem;
+margin-bottom: 10rem;
+  }
+
+  .questions{
+    text-align: center;
+  }
+
+  .contactss{
+    width: 85%;
+    margin: auto;
+  }
+
+  .cont{
+    text-align: center;
+  }
+
+  .contacts h2{
+font-family: Archivo;
+font-size: 36px;
+font-weight: 700;
+line-height: 39.17px;
+text-align: center;
+color: #FFF8F1;
+margin-top: 4rem;
+  }
+
+  .contacts p{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color:#FFF8F1 ;
+margin: 1rem;
+width: 352px;
+margin-left: 24rem;
+  }
+
+  .contactmethods{
+    display: flex;
+    margin-left: 21rem;
+    margin-bottom: 3rem;
+  }
+
+.details{
+  border-radius: 10px;
+  background-color: white;
+  width: 35%;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+  margin-left: 23rem;
+  margin-bottom: 4rem;
+}
+
+input{
+  border-radius: 9px;
+  padding-right: 10rem;
+  padding-top: 1.5rem ;
+  /* border-color: #FF4F4C; */
+  border: 2px solid #FF4F4C;
+}
+
+  .namedet{
+    text-align: left;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+  }
+
+  .name h5{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: #FB9F9D;
+padding-bottom: .8rem;
+  }
+
+
+  .maildet{
+    text-align: left;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+  }
+
+  .mail h5{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: #FB9F9D;
+padding-bottom: .8rem;
+  }
+
+  .message{
+    text-align: left;
+    padding: 1rem 1.4rem 1.5rem 1.4rem;
+  }
+
+  .messageinfo{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: #FB9F9D;
+padding-bottom: .8rem;
+  }
+
+  .message input{
+    padding-top: 6rem;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 3.5rem;
+    list-style: none;
+  }
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+  }
+
+  .contactcontainer{
+    /* background-image: url(images/backkground.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #FF5A1F;
+  }
+
+  .copyright{
+    text-align: center;
+    background-color: #D03801;
+  }
+
+  .copy p{
+font-family: Raleway;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.44px;
+color: white;
+margin: .8rem;
+  }
+
+  @media screen and (max-width: 1024px){
+
+    
+
+    .topservice p{
+      font-family: Dm Sans;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #161E2E;
+      width: 35%;
+      margin-top: 1rem;
+        }
+
+
+      
+        .deliverytext p{
+      font-size: 14px;
+        }
+
+    .processimg{
+      display: flex;
+      position: relative;
+      gap: 2rem;
+    }
+
+
+    .process h3{
+      margin-top: 6rem;
+      font-family: Archivo;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 39.17px;
+      color: white;
+        }
+      
+        .process p{
+      font-family: Dm Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27px;
+      color: white;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+      width: 70%;
+      margin-left: 7rem;
+        }
+      
+
+    .line{
+      margin-top: -12rem;
+      margin-left: 1.5rem;
+      width: 80%;
+    }
+  
+
+    .pack{
+    margin-top: -1rem;
+    width: 100%;
+  }
+   .pack img{
+    width: 100%;
+  }
+
+  .pack h5{
+font-family: Dm Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+width: 85%;
+margin-left: 1rem ;
+  }
+
+
+      .pack p{
+font-size: 12px;
+text-align: center;
+width: 90%;
+margin-left: 1rem ;
+  }
+
+  .processdel{
+    margin-left: 8rem;
+    
+  }
+
+  .price p{
+margin-left: 8.2rem;
+  }
+
+
+  .priceduration{
+    margin-left: 16rem;
+    margin-bottom: 3rem;
+  }
+  
+  .fsdf img{
+    width: 95%;
+  }
+  .fsdm img{
+    width: 95%;
+  }
+  .fsdl img{
+    width: 95%;
+  }
+
+   .questions p{
+margin-left: 7rem;
+  }
+
+   .contacts p{
+margin-left: 16rem;
+  }
+
+
+ .contactmethods{
+    margin-left: 13rem;
+    margin-top: 1rem;
+  }
+
+  .details{
+  margin-left: 15.5rem;
+}
+
+.details{
+  width: 45%;
+}
+
+  input{
+  padding-right: 10rem;
+}
+
+}
+
+  
+  @media screen and (max-width: 900px){
+
+
+
+
+    .deliverytext p{
+      font-size: 12px;
+        }
+    
+    .line{
+      margin-top: -11rem;
+    }
+  
+
+  .pack h5{
+font-family: Dm Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+width: 92%;
+  }
+
+
+      .pack p{
+font-size: 10px;
+text-align: center;
+width: 90%;
+margin-left: 1rem ;
+  }
+
+    .price p{
+      margin-left: 5rem;
+        }
+
+    .priceduration{
+      margin-left: 14rem;
+    }
+
+    .questions p{
+      margin-left: 4rem;
+        }
+
+    .contacts p{
+      margin-left: 13rem;
+        }
+
+    .contactmethods{
+      margin-left: 9.5rem;
+      
+    }
+
+    .details{
+      margin-left: 11rem;
+    }
+    
+    .details{
+      width: 55%;
+    }
+    
+      input{
+      padding-right: 12rem;
+    }
+  }
+  @media screen and (max-width: 768px){
+
+    
+    .topservice p{
+      font-size: 12px;
+        }
+
+
+      
+        .deliverytext p{
+      font-size: 10px;
+        }
+
+    .process h3{
+      margin-top: 6rem;
+      font-family: Archivo;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 39.17px;
+      color: white;
+        }
+      
+        .process p{
+      margin-left: 5rem;
+        }
+    
+    .line{
+      margin-top: -10rem;
+    }
+.pack img{
+  margin-top: 2rem;
+}
+
+  .pack h5{
+font-size: 11px;
+width: 80%;
+  }
+
+
+      .pack p{
+font-size: 8px;
+width: 90%;
+  }
+
+    .price p{
+      margin-left: 2.5rem;
+        }
+
+    .priceduration{
+      margin-left: 10rem;
+    }
+
+    .questions p{
+      margin-left: 1.5rem;
+        }
+
+    .contacts p{
+      margin-left: 9rem;
+        }
+
+    .contactmethods{
+      margin-left: 5.8rem;
+    }
+
+    .details{
+      margin-left: 7.5rem;
+    }
+    
+    .details{
+      width: 64%;
+    }
+    
+      input{
+      padding-right: 12rem;
+    }
+
+    nav{
+      gap: 2.5rem;
+    }
+   
+  }
+
+
+
+  @media screen and (max-width: 580px){
+    header{
+      display: block;
+    }
+
+    .hero{
+      display: block;
+    }
+
+    phoneservices{
+      display: block;
+    }
+  
+    .delivery{
+      display: block;
+    }
+  
+    .first{
+      display: block;
+      margin-bottom: 8rem;
+      gap: 3rem;
+    }
+    .second{
+      display: block;
+      gap: 3rem;
+    }
+
+    .processimg{
+      display: block;
+    }
+
+    .questions p{
+      width: 100%;
+      margin-left: -.1rem;
+        }
+
+        .contactmethods{
+          display: block;
+          margin-left: 2rem;
+        }
+
+        footer{
+          display: block;
+          margin: 2rem;
+        }
+
+        .contacts p{
+          font-family: Dm Sans;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 27px;
+          text-align: center;
+          color:#FFF8F1 ;
+          width: 352px;
+          margin-left: 5rem;
+            }
+      
+  }
+
+
+  @media screen and (max-width: 1024){
+    
+  }
+  @media screen and (max-width: 1024){
+    
+  }
+  @media screen and (max-width: 1024){
+    
+  }
+  @media screen and (max-width: 1024){
+    
+  }
+  @media screen and (max-width: 1024){
+    
+  } 
