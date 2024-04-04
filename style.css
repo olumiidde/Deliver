@@ -18,9 +18,9 @@
 
 .herocontainer {
     background-image: url(images/backkground.png);
-    background-position: right;
+    background-position: 600px 0;
     background-repeat: no-repeat;
-    /* background-size: contain; */
+    background-size: cover;
   }
 
   .headcontainer{
@@ -32,14 +32,15 @@
     header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   nav{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 3.5rem;
     list-style: none;
+    
   }
 
   nav li{
@@ -54,16 +55,18 @@ color: white;
   .hero{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     /* margin: 3rem 0; */
   }
 
   .heroimg{
     width: 62%;
-    margin-left: -1rem;
+    margin-left: 4rem;
+    margin-top: 8rem;
   }
 
   .heroimg img{
-    width: 100%;
+    width: 101%;
   }
 
   .herotext{
@@ -77,7 +80,7 @@ font-size: 38px;
 font-weight: 700;
 line-height: 60px;
 text-align: left;
-/* width: 43%; */
+width: 92%;
   }
 
   .herotext p{
@@ -309,7 +312,7 @@ text-align: center;
 color: #161E2E;
 width: 500px;
 height: 109px;
-margin-left: 14rem;
+margin-left: 12rem;
   }
 
   .priceduration{
@@ -317,13 +320,116 @@ margin-left: 14rem;
   }
 
   .pricerange{
-    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
   }
 
-  .pricerange img{
-    width: 95%;
-    margin-left: 2rem;
-  }
+  .cardcont{
+    border: 2px solid #FCD9BD;
+    width: 80%;
+    border-radius: 18px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    padding-top: 1rem ;
+    padding-left: 1rem ;
+    padding-bottom: 1rem ;
+    }
+    
+    .card2{
+        box-shadow:  -5px -8px 5px pink, 5px 8px 5px pink;
+    }
+
+    
+    .card{
+        text-align: left;
+    }
+    
+    .card h2{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43.57px;
+    text-align: left;
+    color: #FF5A1F;
+    }
+    
+    span{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58.09px;
+    text-align: left;
+    }
+    
+    .card h4{
+        font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    text-align: left;
+    color: #6B7280;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
+    
+    .check{
+        width: 15%;
+    }
+    
+    .localdel{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    }
+    
+    .localdeli h4{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;    
+    color: #161E2E;
+    }
+    
+    .local p{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #4B5563;
+    width: 75%;
+    margin-left: 2.1rem;
+    }
+    
+    .ld{
+     margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
+    
+    .ld2{
+     margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
+    
+    .cardbtn{
+        margin-top: 2rem;
+    }
+    
+    .cardbtn button{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #FFF8F1;
+    background: linear-gradient(90deg, #FF4C4C 0%, #FF8A4C 100%);
+    padding: 14px 32px 14px 32px;
+    border-radius: 12px;
+    border: none;
+    width: 89%;
+    }
 
   .deliveryy{
     width: 90%;
@@ -334,9 +440,8 @@ margin-left: 14rem;
 
 .deliverymethods{
     display: flex;
-    /* gap: 4rem; */
-    justify-content: space-between;
-    
+    gap: 2rem;
+    justify-content: space-between;  
 }
 
   .fsdf img{
@@ -363,10 +468,6 @@ text-align: center;
 margin: 3rem;
 
   }
-
-  /* .payment{
-    margin: 2rem;
-  } */
 
   .payplans{
     border-style: outset;
@@ -438,7 +539,7 @@ line-height: 27px;
 text-align: center;
 color: #374151;
 width: 500px;
-margin-left: 12rem;
+margin-left: 9.5rem;
 margin-bottom: 10rem;
   }
 
@@ -474,21 +575,21 @@ text-align: center;
 color:#FFF8F1 ;
 margin: 1rem;
 width: 352px;
-margin-left: 24rem;
+margin-left: 20rem;
   }
 
   .contactmethods{
     display: flex;
-    margin-left: 21rem;
+    margin-left: 16.5rem;
     margin-bottom: 3rem;
   }
 
 .details{
   border-radius: 10px;
   background-color: white;
-  width: 35%;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
-  margin-left: 23rem;
+  width: 38%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+  margin-left: 19rem;
   margin-bottom: 4rem;
 }
 
@@ -587,16 +688,55 @@ margin: .8rem;
 
   @media screen and (max-width: 1024px){
 
-    
+    .heroimg{
+      width: 82%;
+      margin-left: 2rem;
+    }
+  
+    .heroimg img{
+      width: 100%;
+    }
+  
+    .herotext{
+      width: 38%;
+      margin: 8rem 0;
+    }
+  
+    .herotext h4{
+  font-size: 30px;
+  width: 100%;
+    }
+  
+    .herotext p{
+  font-size: 12px;
+  margin: 2rem 0;
+  width: 95%;
+    }
+  
 
+    .herocontainer {
+      background-position: 450px 0;
+    }
+
+
+    .local p{
+      font-size: 10px;
+      width: 80%;
+      margin-left: 1rem;
+      }
+
+      .cardcont{
+        width: 90%;
+        border-radius: 18px;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        padding-top: 1rem ;
+        padding-left: 1rem ;
+        padding-bottom: 1rem ;
+        }
     .topservice p{
-      font-family: Dm Sans;
       font-size: 14px;
-      font-weight: 400;
-      line-height: 27px;
-      letter-spacing: 0em;
       text-align: left;
-      color: #161E2E;
       width: 35%;
       margin-top: 1rem;
         }
@@ -726,8 +866,37 @@ margin-left: 16rem;
   
   @media screen and (max-width: 900px){
 
+    nav{
+      display: none;
+    }
 
+    .herotext{
+      width: 38%;
+      margin: 8rem 0;
+    }
+  
+    .herotext h4{
+  font-size: 24px;
+  line-height: 40px;
+  width: 100%;
+    }
+  
+    .herotext p{
+  font-size: 11px;
+  margin: 2rem 0;
+  width: 99%;
+    }
+  
 
+    .herocontainer {
+      background-position: 400px 0;
+    }
+
+    .local p{
+      font-size: 9px;
+      width: 86%;
+      margin-left: 1rem;
+      }
 
     .deliverytext p{
       font-size: 12px;
@@ -874,16 +1043,41 @@ width: 90%;
 
 
   @media screen and (max-width: 580px){
-    header{
-      display: block;
-    }
 
     .hero{
       display: block;
     }
 
-    phoneservices{
+    .herotext{
+      width: 80%;
+      margin: 2rem 0;
+    }
+  
+    .herotext h4{
+  font-family: Dm Sans;
+  font-size: 48px;
+  width: 95%;
+    }
+  
+    .herotext p{
+  font-family: Nunito;
+  font-size: 29px;
+  margin: 2rem 0;
+  overflow: hidden;
+    }
+  
+
+    .herocontainer {
+      background-image: url(images/backkground.png);
+      background-position: 0px 650px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    .phoneservices{
       display: block;
+      flex-direction: row-reverse;
     }
   
     .delivery{
@@ -911,7 +1105,11 @@ width: 90%;
 
         .contactmethods{
           display: block;
-          margin-left: 2rem;
+          margin-left: -1rem;
+        }
+
+        .logo{
+          margin-left: 7.5rem;
         }
 
         footer{
@@ -920,31 +1118,323 @@ width: 90%;
         }
 
         .contacts p{
-          font-family: Dm Sans;
-          font-size: 22px;
-          font-weight: 400;
-          line-height: 27px;
-          text-align: center;
-          color:#FFF8F1 ;
-          width: 352px;
-          margin-left: 5rem;
+          font-size: 21px;
+          width: 90%;
+          margin-left: 1rem;
             }
+
+            .pack h5{
+              font-family: Dm Sans;
+              font-size: 22px;
+              margin-left: 2rem ;
+                }
+              
+                .pack p{
+              font-size: 20px;
+              width: 60%;
+              margin-left: 2rem ;
+              overflow: hidden;
+              margin-left: 5rem;
+              margin-top: 1rem;
+              margin-bottom: 4rem;
+                }
+
+                .process h3{
+                  font-size: 36px;
+                    }
+                  
+                    .process p{
+                  font-size: 20px;
+                  font-weight: 400;
+                  line-height: 27px;
+                  color: white;
+                  margin-top: 1rem;
+                  margin-bottom: 3rem;
+                  width: 80%;
+                  margin-left: 3rem;
+                    }
+
+                    .details{
+                      width: 85%;
+                      margin-left: 3rem;
+                    }
+
+                    .line{
+                      display: none;
+                    }
+
+                    .processdel{
+                      display: none;
+                    }
+
+                    .deliverymethods{
+                      display: block;
+                  }
+
+                  .fsdm img{
+                    margin-bottom: 3rem;
+                    margin-top: 3rem;
+                  }
+              
+                  .pricerange{
+                    display: block;
+                  }
+
+                  .localdeli h4{
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 19.36px;
+                    text-align: left;    
+                    color: #161E2E;
+                    overflow: hidden;
+                    }
+                    
+                    .local p{
+                    font-family: Inter;
+                    font-size: 17px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    text-align: left;
+                    color: #4B5563;
+                    width: 70%;
+                    overflow: hidden;
+                    margin-left: 3.5rem;
+                    }
+
+                    .card2{
+                      box-shadow: 0px 0px 0px;
+                  }
+
+                  .priceduration{
+                    margin-left: 5rem;
+                  }
+
+                  .price p{
+                    font-size: 16px;
+                    width: 100%;
+                    margin-left: 0rem;
+                      }
+
+                      
+  .topservice h3{
+    font-family: Archivo;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161E2E;
+      }
+    
+      .topservice p{
+    font-family: Dm Sans;
+    font-size: 18px;
+    color: #161E2E;
+    width: 65%;
+    margin-top: 1rem;
+      }
+    
+      .phoneservices{
+        align-items: center;
+        /* justify-content: space-between;
+        margin-bottom: 8rem; */
+      }
+    
+      .first{
+        margin-bottom: 2rem;
+
+      }
+    
+      .phone{
+        width: 100%;
+        margin-left: 3rem;
+      }
+    
+      .phone img{
+        width: 70%;
+      }
+    
+      .deliveryimage{
+        width: 100%;
+        margin-left: 8rem;
+        margin-top: 2rem;
+      }
+
+      .deliveryimage img{
+        width: 30%;
+      }
+    
+      .deliverytext h5{
+    font-size: 27px;
+    overflow: hidden;
+    margin-left: 9rem;
+      }
+    
+      .deliverytext p{
+    font-size: 22px;
+    width: 80%;
+    text-align: center;
+    margin-left: 1.5rem ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;   
+  }
+}
+
+
+  @media screen and (max-width: 480px){
+
+ 
+    .herotext h4{
+      font-family: Dm Sans;
+      font-size: 38px;
+      width: 100%;
+      overflow: hidden;
+        }
       
-  }
+        .herotext p{
+      font-family: Nunito;
+      font-size: 30px;
+      width: 100%;
+      margin: 2rem 0;
+      overflow: hidden;
+        }
 
+    .topservice p{
+      font-family: Dm Sans;
+      font-size: 20px;
+      color: #161E2E;
+      width: 85%;
+      margin-top: 1rem;
+        }
 
-  @media screen and (max-width: 1024){
-    
-  }
-  @media screen and (max-width: 1024){
-    
-  }
-  @media screen and (max-width: 1024){
-    
-  }
-  @media screen and (max-width: 1024){
-    
-  }
-  @media screen and (max-width: 1024){
-    
-  } 
+    .deliverytext h5{
+      font-size: 27px;
+      overflow: hidden;
+      margin-left: 7rem;
+        }
+
+        .deliveryimage{
+          width: 100%;
+          margin-left: 7rem;
+          margin-top: 2rem;
+        }
+
+        .deliverytext p{
+          font-size: 22px;
+          width: 95%;
+          text-align: center;
+          margin-left: 0rem ;
+          margin-top: 2rem;
+          margin-bottom: 2rem;   
+        }
+
+        .pack p{
+          font-size: 20px;
+          width: 80%;
+          margin-left: 2rem;
+            }
+
+            .process p{
+              font-size: 20px;
+              width: 100%;
+              margin-left: 0rem;
+                }
+
+                .faq h2{
+                  font-size: 30px;
+                  
+                    }
+                  
+                    .payplans{
+                      border-style: outset;
+                      padding: 1.7rem;
+                      padding-bottom: 1rem;
+                      margin: 1rem;
+                    }
+                  
+                    .payplan h5{
+                  font-size: 16px;
+                  width: 75%;
+                  line-height: 25px;
+                    }
+                  
+                    .pay p{
+                  font-family: Archivo;
+                  font-size: 14px;
+                  width: 87%;
+                  font-weight: 300;
+                  line-height: 26px;
+                  letter-spacing: 0.01em;
+                  text-align: left;
+                  color: #4B5563;
+                    }
+                    .cancellation{
+                      border-style: outset;
+                      padding: 1.8rem;
+                      margin: 1rem;
+                    }
+                  
+                  
+                    .paycancel h5{
+                  font-family: Archivo;
+                  font-size: 18px;
+                  font-weight: 400;
+                  line-height: 19.58px;
+                  text-align: left;
+                  color: #4B5563;
+                    }
+                  
+                    .paymentplan{
+                      display: flex;
+                      justify-content: space-between;
+                    }
+                  
+                    .cancellation{
+                      display: flex;
+                      justify-content: space-between;
+                    }
+
+        .priceduration{
+          margin-left: 3rem;
+        }
+
+        .price p{
+          font-size: 20px;
+          width: 100%;
+            }
+
+        .local p{
+          font-size: 16px;
+          width: 85%;
+          overflow: hidden;
+          margin-left: 2.9rem;
+          }
+
+          .questions p{
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 27px;
+            text-align: center;
+            color: #374151;
+            width: 100%;
+            margin-bottom: 10rem;
+              }
+
+        .details{
+          width: 100%;
+          margin-left: 0rem;
+        }
+
+        .logo{
+          margin-left: 5.5rem;
+        }
+
+        .contacts p{
+          font-family: Dm Sans;
+          font-size: 26px;
+          width: 90%;
+          margin-left: 1rem;
+          overflow: hidden;
+            }
+          }
