@@ -18,7 +18,7 @@
 
 .herocontainer {
     background-image: url(images/backkground.png);
-    background-position: 600px 0;
+    background-position: 640px 0;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -199,6 +199,7 @@ line-height: 27px;
 letter-spacing: 0em;
 text-align: left;
 color: #161E2E;
+overflow: hidden;
   }
 
   .processcontainer{
@@ -261,16 +262,17 @@ text-align: center;
 color: #FFFFFF;
 width: 75%;
 margin-left: 1rem ;
+overflow: hidden;
   }
 
   .pack p{
 font-family: Dm Sans;
-font-size: 11px;
+font-size: 12px;
 font-weight: 400;
 line-height: 19px;
 text-align: center;
 color: white;
-width: 60%;
+width: 70%;
 margin-left: 2rem ;
   }
 
@@ -312,7 +314,7 @@ text-align: center;
 color: #161E2E;
 width: 500px;
 height: 109px;
-margin-left: 12rem;
+margin-left: 14rem;
   }
 
   .priceduration{
@@ -539,7 +541,7 @@ line-height: 27px;
 text-align: center;
 color: #374151;
 width: 500px;
-margin-left: 9.5rem;
+margin-left: 12rem;
 margin-bottom: 10rem;
   }
 
@@ -564,6 +566,7 @@ line-height: 39.17px;
 text-align: center;
 color: #FFF8F1;
 margin-top: 4rem;
+margin-left: -5rem;
   }
 
   .contacts p{
@@ -575,12 +578,12 @@ text-align: center;
 color:#FFF8F1 ;
 margin: 1rem;
 width: 352px;
-margin-left: 20rem;
+margin-left: 21rem;
   }
 
   .contactmethods{
     display: flex;
-    margin-left: 16.5rem;
+    margin-left: 17.5rem;
     margin-bottom: 3rem;
   }
 
@@ -1304,7 +1307,7 @@ width: 90%;
       font-family: Dm Sans;
       font-size: 20px;
       color: #161E2E;
-      width: 85%;
+      width: 100%;
       margin-top: 1rem;
         }
 
@@ -1316,17 +1319,22 @@ width: 90%;
 
         .deliveryimage{
           width: 100%;
-          margin-left: 7rem;
-          margin-top: 2rem;
+          margin-left: 8rem;
+          margin-top: 3rem;
         }
 
         .deliverytext p{
-          font-size: 22px;
-          width: 95%;
+          font-size: 20px;
+          width: 100%;
           text-align: center;
           margin-left: 0rem ;
           margin-top: 2rem;
           margin-bottom: 2rem;   
+        }
+
+        .process p{
+          font-size: 20px;
+          width: 100%;
         }
 
         .pack p{
@@ -1341,9 +1349,22 @@ width: 90%;
               margin-left: 0rem;
                 }
 
+                .price p{
+
+                  margin-top: 2rem;
+                  margin-bottom: 2rem;
+                }
+
                 .faq h2{
-                  font-size: 30px;
+                  font-size: 28px;
+                    }
+
+                    .paycancel{
+                      width: 100%;
+                    }
                   
+                    .paycancel img{
+                      width: 90%;
                     }
                   
                     .payplans{
@@ -1355,14 +1376,14 @@ width: 90%;
                   
                     .payplan h5{
                   font-size: 16px;
-                  width: 75%;
+                  width: 85%;
                   line-height: 25px;
                     }
                   
                     .pay p{
                   font-family: Archivo;
-                  font-size: 14px;
-                  width: 87%;
+                  font-size: 13px;
+                  width: 94%;
                   font-weight: 300;
                   line-height: 26px;
                   letter-spacing: 0.01em;
@@ -1387,12 +1408,12 @@ width: 90%;
                   
                     .paymentplan{
                       display: flex;
-                      justify-content: space-between;
+                      gap: 2rem;
                     }
                   
                     .cancellation{
                       display: flex;
-                      justify-content: space-between;
+                     gap: 2rem;
                     }
 
         .priceduration{
@@ -1412,7 +1433,7 @@ width: 90%;
           }
 
           .questions p{
-            font-size: 19px;
+            font-size: 17px;
             font-weight: 400;
             line-height: 27px;
             text-align: center;
@@ -1433,8 +1454,12 @@ width: 90%;
         .contacts p{
           font-family: Dm Sans;
           font-size: 26px;
-          width: 90%;
-          margin-left: 1rem;
+          width: 100%;
+          margin-left: 0rem;
           overflow: hidden;
+            }
+
+            .contacts h2{
+              margin-left: -1rem;
             }
           }
